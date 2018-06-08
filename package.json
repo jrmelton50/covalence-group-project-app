@@ -1,5 +1,5 @@
 {
-  "name": "BhamBarhopFrontEnd",
+  "name": "craftcrawls",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,13 +7,25 @@
     "test": "jest"
   },
   "dependencies": {
+    "cloudinary": "^1.11.0",
+    "es6-promise": "^4.2.4",
+    "fetch-everywhere": "^1.0.5",
+    "fsevents": "^1.2.4",
+    "native-base": "^2.4.5",
     "react": "16.3.1",
-    "react-native": "0.55.4"
+    "react-native": "0.55.4",
+    "react-native-camera": "^1.1.4",
+    "react-native-elements": "^0.19.1",
+    "react-native-fetch-blob": "^0.10.8",
+    "react-native-image-picker": "^0.26.10",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.0.1"
   },
   "devDependencies": {
     "babel-jest": "22.4.4",
     "babel-preset-react-native": "4.0.0",
     "jest": "22.4.4",
+    "react-devtools": "^3.2.3",
     "react-test-renderer": "16.3.1"
   },
   "jest": {
