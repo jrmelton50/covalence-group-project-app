@@ -40,7 +40,7 @@ export default class GameOverScreen extends Component {
 				<Content style={{ backgroundColor: "#F9F5E0" }}>
 					<Text style={{ alignSelf: "center", color: "#A2978D", fontWeight: "bold", padding: 15, fontSize: 18, }}>CRAWL COMPLETE</Text>
 					<Text style={{ alignSelf: "center", color: "#A2978D", fontWeight: "bold", padding: 15, fontSize: 18, }}>Thanks for exploring Birmingham!</Text>
-					<Text style={{ alignSelf: "center", color: "#A2978D", fontWeight: "bold", fontStyle: 'italic', padding: 15, fontSize: 18, }}>See your latest crawl photos below:</Text>
+					{/* <Text style={{ alignSelf: "center", color: "#A2978D", fontWeight: "bold", fontStyle: 'italic', padding: 15, fontSize: 18, }}>See your latest crawl photos below:</Text> */}
 					<ImageBackground source={require('../assets/buttonbg.png')} style={styles.buttonBackground}>
 						<TouchableOpacity
 							block
